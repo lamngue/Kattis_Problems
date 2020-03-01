@@ -17,9 +17,9 @@ public class Skener {
 				in[i][j] = cha;
 			}
 		}
-		for(int i = 0; i<in.length;i++) {
+		for(int i = 0; i<r;i++) {
 			for(int j = 0; j < ZR; j++) {
-				for(int k = 0; k<in[0].length;k++) {
+				for(int k = 0; k<c;k++) {
 					for(int g = 0;g<ZC;g++) {
 						System.out.print(in[i][k]);
 					}
